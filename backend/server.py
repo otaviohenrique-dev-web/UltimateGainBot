@@ -33,8 +33,8 @@ startup_time = None
 async def lifespan(app: FastAPI):
     """Startup e shutdown do app."""
     global state_manager, data_service, trading_engine, news_service, startup_time
-    
-    print(">>> 🚀 Iniciando IA Trader Pro v3.0.1...")
+
+    print(">>> 🚀 Iniciando Ultimate Gain v3.0.1...")
     startup_time = time.time()
     
     # Inicializa serviços
@@ -91,7 +91,7 @@ async def lifespan(app: FastAPI):
         pass
 
 # App FastAPI
-app = FastAPI(title="IA Trader Pro", version="3.0.1", lifespan=lifespan)
+app = FastAPI(title="Ultimate Gain", version="3.0.1", lifespan=lifespan)
 
 # CORS
 app.add_middleware(
