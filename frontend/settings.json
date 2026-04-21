@@ -1,0 +1,4 @@
+{
+  // Desativa o aviso "Unknown at rule" para as diretivas do Tailwind CSS.
+  "css.lint.unknownAtRules": "ignore"
+}

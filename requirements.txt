@@ -1,0 +1,19 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core IA / Machine Learning (Versão CPU)
+torch
+sb3-contrib
+
+# Core Backend & API
+fastapi
+uvicorn[standard]
+aiohttp
+
+# Dados Financeiros & Indicadores
+ccxt
+pandas
+numpy
+pandas-ta-classic
+
+
+python-dotenv
