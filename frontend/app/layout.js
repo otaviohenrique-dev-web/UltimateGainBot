@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'IA Trader Pro',
-  description: 'Dashboard para o IA Trader Pro bot.',
+  title: 'Ultimate Gain',
+  description: 'Dashboard para o Ultimate Gain bot.',
 };
 
 export default function RootLayout({ children }) {

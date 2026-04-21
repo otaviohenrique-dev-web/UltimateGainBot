@@ -8,7 +8,7 @@ export default function HomePage() {
 
   return (
     <main className="p-4">
-      <h1 className="text-2xl font-bold">IA Trader Pro Dashboard</h1>
+      <h1 className="text-2xl font-bold">Ultimate Gain</h1>
       <p>Status da Conexão: {connected ? '🟢 Conectado' : '🔴 Desconectado'}</p>
       <pre className="mt-4 p-2 bg-gray-800 rounded-md overflow-auto">{JSON.stringify(data, null, 2)}</pre>
     </main>
